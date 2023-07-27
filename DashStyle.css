@@ -1,0 +1,246 @@
+  @import url('https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/finished-making/jumpToPresent.css');
+  @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+  @import url(//dablulite.github.io/css-snippets/BetterModals/import.css);
+
+  /* Bar Channel Selected */
+  :root {
+      --color-h: 4;
+      --color-s: 0%;
+      --color-l: 100%;
+      /*  */
+      --size: 3px;
+      --radius: 0px;
+      /*  */
+      --bg-color: calc(var(--color-h)) calc(var(--color-s)) calc(var(--color-l));
+  }
+  
+  /* Channel Bar Hover*/
+  :not([class*=container-]) > ul > [class*=containerDefault-]:hover{
+      /* background-color: hsl(40, 40%, 40%); */
+      /* background-color: var(--bg-color); */
+      background-color: hsla(0, 100%, 100%, 10%);
+      border-left: var(--size) solid hsla(0, 100%, 100%, 25%);
+      border-radius: 0px;
+  }
+  /* Channel Bar Selected */
+  :not([class*=container-]) > ul > [class*=containerDefault-][class*=selected-]{
+      /* background-color: hsla(0, 100%, 100%, 20%); */
+      border-left: var(--size) solid hsla(0, 100%, 100%, 25%);
+      border-radius: 0px;
+  }
+  :not([class*=container-]) > ul > [class*=containerDefault-][class*=selected-] > div > div > [class*="link-"] > [class*="emojiColorFill-"]
+  {
+    margin-left: -30px;
+    margin-top: 0px;
+  } 
+  
+  :not([class*=container-]) > ul > [class*=containerDefault-] > div > div > [class*="link-"]
+  {
+    background: none;
+  } 
+  :not([class*=container-]) > ul > [class*=containerDefault-] > div > div > div > [class*="link-"] {
+      background: none;
+  }
+  :not([class*=container-]) > ul > [class*=containerDefault-][class*="wrapper-"],
+  [class*=container-] > ul > [class*=containerDefault-][class*="wrapper-"] > [class*="link-"]
+  {
+      background: none;
+  }
+  
+  .containerDefault-YUSmu3:hover {
+      background-color: var(--primary-560);
+      border-left: 3px solid var(--primary-500);
+      border-radius: 0px;
+  }
+  .containerDefault-YUSmu3.selected-2TbFuo {
+      background-color: var(--primary-660);
+      border-left: 3px solid var(--primary-560);
+      border-radius: 0px;
+  }
+  .containerDefault-YUSmu3.selected-2TbFuo > div > div > .link-1_kTxV > [class*="emojiColorFill-"] {
+    margin-left: -30px;
+    margin-top: 0px;
+  } 
+  .link-1_kTxV {
+    background: none !important;
+  }
+  
+  /*home icon hover effect*/
+  .homeIcon-r0w4ny > path {
+    d: path(
+      "M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z"
+    );
+    transform: scale(1.1) translate(-1.5px, -1px);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .wrapper-3kah-n.selected-1Drb7Z:has([d^="M23.0212"]) .homeIcon-r0w4ny path {
+    fill: #2b7cf6;
+  }
+  
+  .wrapper-3kah-n.selected-1Drb7Z:has([d^="M23.0212"]) .childWrapper-1j_1ub {
+    background: var(--background-primary) !important;
+  }
+  
+  .wrapper-3kah-n.selected-1Drb7Z:has([d^="M23.0212"])
+    .childWrapper-1j_1ub::after {
+    background-color: #2b7cf6;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    filter: blur(10px);
+    opacity: 0.4;
+  }
+  
+  /* Expendable User Panel */
+  .panels-3wFtMD div .avatarWrapper-1B9FTW {
+    width: 194px;
+    margin-right: 0px !important;
+  }
+  
+  .panels-3wFtMD div .avatarWrapper-1B9FTW:hover {
+    margin-right: 8px !important;
+  }
+  
+  .panels-3wFtMD div .flex-2S1XBF button[role="switch"] {
+    width: 0px;
+    overflow: hidden;
+    transition: all 0.3s;
+    left: 16px;
+  }
+  
+  .panels-3wFtMD div .flex-2S1XBF:hover button[role="switch"] {
+    width: 32px;
+    overflow: visible;
+    transition: all 0.3s;
+    left: 0px;
+  }
+  
+  .panels-3wFtMD div .flex-2S1XBF:not(:hover) button:not([role="switch"]) svg {
+    rotate: 360deg;
+    transition: rotate 0.3s;
+    background-color: var(--background-secondary-alt); /* might look off with some themes */
+  }
+  
+  .panels-3wFtMD div .flex-2S1XBF:hover button:not([role="switch"]) svg {
+    rotate: 0deg;
+    transition: rotate 0.3s;
+  }
+  
+  /* Channel Icon Emoji Coloring */
+  #app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
+    background: #b00b6925;
+    border: 2px solid #d4a373;
+  }
+  
+  .icon-2W8DHg {
+    width: 15px;
+    height: 15px;
+  }
+  
+  [aria-label="Channels"] [class^="content"],
+  [class^="popout-"] [class^="row-"]
+  {
+      border-style: solid;
+      border-width: 2px;  
+      border-color: transparent;
+      background-color: transparent;
+  }
+  
+  [aria-label="Channels"] [class^="content"]:hover,
+  [class^="popout-"] [class^="row-"]:hover
+  {
+      border-color: #d4a373 !important;
+  }
+  
+  .unread-36eUEm {
+    display: none;
+  }
+  
+  .modeUnread-3Cxepe .icon-2W8DHg,
+  #app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ .icon-2W8DHg,
+  #app-mount .containerDefault-YUSmu3:hover .content-1gYQeQ .icon-2W8DHg
+  {
+    color: #d4a373 !important;
+  }
+  
+  /* member list and friend DMs hover effect */
+  .clickable-28SzVr:hover,
+  .interactive-1vLZ_I:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+  }
+  .clickable-28SzVr,
+  .interactive-1vLZ_I {
+    transition: all 0.3s;
+  }
+  
+  /*user setting icon spin*/
+  .button-12Fmur:nth-last-child(1):hover
+    path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"] {
+    animation: Settings 1s;
+    transform-origin: center;
+  }
+  .button-12Fmur:nth-last-child(1)
+    path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"] {
+    animation: Settings2 1s;
+    transform-origin: center;
+  }
+  @keyframes Settings {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(90deg);
+    }
+  }
+  @keyframes Settings2 {
+    from {
+      transform: rotate(180deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  
+  /* Role Animate On Hover */
+  .role-2TIOKu {
+    transform: translate(0);
+    overflow: hidden;
+    border: 0;
+  
+    --transparency: .4;
+    border-radius: 5px;
+  }
+  .role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%, -50%);
+  }
+  .role-2TIOKu .roleRemoveButton-17oXnT {
+    position: static;
+  }
+  .role-2TIOKu .roleCircle-3TFUOr:after {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: var(--transparency);
+  }
+  
+  .botTag-7aX5WZ:not(.botTagOP-3pUTXu) {
+      color: var(--brand-560);
+      background-color: var(--brand-260);
+      height: 0.9375rem;
+      padding: 0 0.275rem;
+      border-radius: 0.4rem;
+      margin-top: 0.25em;
+  }
+  .botTag-7aX5WZ.botTagCozy-3NTBvK:not(.botTagOP-3pUTXu) {
+      margin-left: 0.25rem;
+  }
